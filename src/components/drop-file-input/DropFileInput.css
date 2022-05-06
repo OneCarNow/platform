@@ -4,8 +4,13 @@
     --input-bg: #f5f8ff;
     --text-color: #2f2d2f;
     --text-second-color: #ccc;
-    --border-color: #4267b2;
-    --box-shadow: rgba(149, 157, 165, .2) 0px 8px 24px;
+    --border-color: #6210ff;
+    --box-shadow: rgba(98, 16, 255, .2) 0px 8px 24px;
+  }
+
+  .logo {
+
+    width: 50%;
   }
 
 .drop-file-input {
@@ -15,7 +20,7 @@
     border: 2px dashed var(--border-color);
     border-radius: 20px;
 
-    margin-left: 81px;
+  
 
     display: flex;
     align-items: center;

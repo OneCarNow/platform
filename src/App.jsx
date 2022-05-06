@@ -7,13 +7,13 @@ function App() {
   const onFileChange = (files) => {
 
     
-    console.info('files'| files)
+    console.log(files)
   }
 
   return (
     <div className='box'>
       <h2 className='header'>
-        oneCarNow! Drag and Drop Component 😧 
+        <img className='logo' src="https://onecarnow.com/img/landing/secondstate/logo.svg" alt="" />
       </h2>
       <DropFileInput onFileChange={(files)=> onFileChange(files)}/>
     </div>
